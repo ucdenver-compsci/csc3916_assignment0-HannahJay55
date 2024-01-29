@@ -1,0 +1,25 @@
+Headers descriptions
+Information sourced from: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+
+Request Headers
+User-Agent: PostmanRuntime/7.36.1 - string used to identify and distinguish the user agent making the HTTP request
+Accept: */* - indicates what file types are accepted in response, */* means any file type is accepted
+Postman-Token: 591853d6-a0d4-48ae-9107-3b2c3a740e41 - access token for postman
+Host: www.googleapis.com - specifies the host the HTTP request is being sent to
+Accept-Encoding: gzip, deflate, br - indicates the kinds of content encoding the client can use
+Connection: keep-alive - determines if network connection remains open after current transaction is finished
+
+Response Headers
+Content-Type: application/json; charset=UTF-8 - provides client with content type of returned content
+Vary: Origin - describes parts of request message influencing content of response
+Vary: X-Origin - describes parts of request message influencing content of response
+Vary: Referer - describes parts of request message influencing content of response
+Content-Encoding: gzip - lists encodings and order applied to message payload. Encoding is used to compress message data.
+Date: Mon, 29 Jan 2024 00:47:29 GMT - Date and time of message
+Server: ESF - indicates software used by origin server handling request
+Cache-Control: private - directives controlling caching in browsers and shared caches (private indicates response can only be stored in private cache)
+X-XSS-Protection: 0 - feature in certain web browsers that prevents pages from loading if cross site scripting attacks are detected (0 disables XSS filtering)
+X-Frame-Options: SAMEORIGIN - security measure used to indicate if and how a browser can render a page.
+X-Content-Type-Options: nosniff - marker to indicate that MIME types in Content-Type headers should remain untouched
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - server can indicate an alternative service can be treated as authoritative for that origin for future requests
+Transfer-Encoding: chunked - specifies form of encoding for transfering payload body to user (data sent in series of chunks)
