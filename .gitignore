@@ -2,3 +2,6 @@
 npm-debug.log 
 .DS_Store
 /*.env 
+.idea/vcs.xml
+.idea/modules.xml
+.idea/CSC3916_Assignment0.iml
